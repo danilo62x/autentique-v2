@@ -1,7 +1,7 @@
 <?php
 
-use vinicinbgs\Autentique\tests\_Base;
-use vinicinbgs\Autentique\Folders;
+use danilo62x\Autentique\tests\_Base;
+use danilo62x\Autentique\Folders;
 
 class FoldersTest extends _Base
 {

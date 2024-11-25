@@ -1,13 +1,13 @@
 <?php
 
-namespace vinicinbgs\Autentique;
+namespace danilo62x\Autentique;
 
-use vinicinbgs\Autentique\Utils\Query;
-use vinicinbgs\Autentique\BaseResource;
+use danilo62x\Autentique\Utils\Query;
+use danilo62x\Autentique\BaseResource;
 
 /**
  * Class Documents
- * @package vinicinbgs\Autentique
+ * @package danilo62x\Autentique
  * @see https://beadev.net/autentique-v2/documents
  */
 class Documents extends BaseResource

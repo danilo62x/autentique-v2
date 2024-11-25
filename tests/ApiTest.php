@@ -1,12 +1,12 @@
 <?php
 
-namespace vinicinbgs\Autentique\tests;
+namespace danilo62x\Autentique\tests;
 
 use Exception;
-use vinicinbgs\Autentique\tests\_Base;
-use vinicinbgs\Autentique\Utils\Api;
-use vinicinbgs\Autentique\Enums\ErrorMessagesEnum;
-use vinicinbgs\Autentique\exceptions\ContentTypeException;
+use danilo62x\Autentique\tests\_Base;
+use danilo62x\Autentique\Utils\Api;
+use danilo62x\Autentique\Enums\ErrorMessagesEnum;
+use danilo62x\Autentique\exceptions\ContentTypeException;
 
 use Mockery;
 

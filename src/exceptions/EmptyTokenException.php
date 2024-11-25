@@ -1,8 +1,8 @@
 <?php
 
-namespace vinicinbgs\Autentique\exceptions;
+namespace danilo62x\Autentique\exceptions;
 
-use vinicinbgs\Autentique\Enums\ErrorMessagesEnum;
+use danilo62x\Autentique\Enums\ErrorMessagesEnum;
 
 class EmptyTokenException extends BaseException
 {

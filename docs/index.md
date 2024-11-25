@@ -5,19 +5,19 @@ filename: /index
 --- 
 #### AUTENTIQUE Api v2
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/vinicinbgs/autentique-v2)](https://packagist.org/packages/vinicinbgs/autentique-v2)
-[![Total Downloads](https://poser.pugx.org/vinicinbgs/autentique-v2/downloads)](https://packagist.org/packages/vinicinbgs/autentique-v2)
-[![codecov](https://codecov.io/gh/vinicinbgs/autentique-v2/branch/master/graph/badge.svg)](https://codecov.io/gh/vinicinbgs/autentique-v2)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vinicinbgs/autentique-v2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vinicinbgs/autentique-v2/?branch=master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/vinicinbgs/autentique-v2/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
-[![License](https://poser.pugx.org/vinicinbgs/autentique-v2/license)](https://packagist.org/packages/vinicinbgs/autentique-v2)
+[![Latest Stable Version](https://img.shields.io/packagist/v/danilo62x/autentique-v2)](https://packagist.org/packages/danilo62x/autentique-v2)
+[![Total Downloads](https://poser.pugx.org/danilo62x/autentique-v2/downloads)](https://packagist.org/packages/danilo62x/autentique-v2)
+[![codecov](https://codecov.io/gh/danilo62x/autentique-v2/branch/master/graph/badge.svg)](https://codecov.io/gh/danilo62x/autentique-v2)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/danilo62x/autentique-v2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/danilo62x/autentique-v2/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/danilo62x/autentique-v2/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![License](https://poser.pugx.org/danilo62x/autentique-v2/license)](https://packagist.org/packages/danilo62x/autentique-v2)
 
 # Getting Started
 
 This package is so simple to use that will save your time!
 
 ```bash
-composer require vinicinbgs/autentique-v2
+composer require danilo62x/autentique-v2
 ```
 
 ### 1) Set `.env` file
@@ -31,8 +31,8 @@ AUTENTIQUE_DEV_MODE="true" # set "true" for SANDBOX MODE or "false" to PRODUCTIO
 If you not able to use environment variables, you can set it directly in `(Documents | Folders) instance`:
 
 ```php
-use vinicinbgs\Autentique\Utils\Api;
-use vinicinbgs\Autentique\Documents;
+use danilo62x\Autentique\Utils\Api;
+use danilo62x\Autentique\Documents;
 
 $api = new Api('https://api.autentique.com.br/v2/graphql', 100);
 $document = new Documents($token);
@@ -67,7 +67,7 @@ $document->setSandbox("true"); // string. "true"|"false"
 # Contribute
 
 ```sh
-git clone git@github.com:vinicinbgs/autentique-v2.git
+git clone git@github.com:danilo62x/autentique-v2.git
 cd autentique-v2
 make contribute
 ```

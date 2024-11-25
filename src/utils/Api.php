@@ -1,16 +1,16 @@
 <?php
 
-namespace vinicinbgs\Autentique\Utils;
+namespace danilo62x\Autentique\Utils;
 
 use CURLFile;
 use Exception;
 
-use vinicinbgs\Autentique\exceptions\EmptyTokenException;
-use vinicinbgs\Autentique\exceptions\EmptyQueryException;
-use vinicinbgs\Autentique\exceptions\ContentTypeException;
-use vinicinbgs\Autentique\exceptions\EmptyAutentiqueResponseException;
-use vinicinbgs\Autentique\exceptions\EmptyAutentiqueUrlException;
-use vinicinbgs\Autentique\exceptions\InvalidAutentiqueUrlException;
+use danilo62x\Autentique\exceptions\EmptyTokenException;
+use danilo62x\Autentique\exceptions\EmptyQueryException;
+use danilo62x\Autentique\exceptions\ContentTypeException;
+use danilo62x\Autentique\exceptions\EmptyAutentiqueResponseException;
+use danilo62x\Autentique\exceptions\EmptyAutentiqueUrlException;
+use danilo62x\Autentique\exceptions\InvalidAutentiqueUrlException;
 
 class Api
 {

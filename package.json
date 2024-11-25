@@ -7,12 +7,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinicinbgs/autentique-v2.git"
+    "url": "git+https://github.com/danilo62x/autentique-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/vinicinbgs/autentique-v2/issues"
+    "url": "https://github.com/danilo62x/autentique-v2/issues"
   },
-  "homepage": "https://github.com/vinicinbgs/autentique-v2#readme",
+  "homepage": "https://github.com/danilo62x/autentique-v2#readme",
   "devDependencies": {
     "@prettier/plugin-php": "^0.17.6",
     "husky": "^7.0.4",

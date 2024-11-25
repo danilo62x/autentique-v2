@@ -1,6 +1,6 @@
 <?php
 
-namespace vinicinbgs\Autentique\Utils;
+namespace danilo62x\Autentique\Utils;
 
 use Exception;
 

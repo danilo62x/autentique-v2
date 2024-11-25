@@ -1,9 +1,9 @@
 <?php
 
-namespace vinicinbgs\Autentique;
+namespace danilo62x\Autentique;
 
-use vinicinbgs\Autentique\Enums\ResourcesEnum;
-use vinicinbgs\Autentique\Utils\Api;
+use danilo62x\Autentique\Enums\ResourcesEnum;
+use danilo62x\Autentique\Utils\Api;
 
 abstract class BaseResource
 {

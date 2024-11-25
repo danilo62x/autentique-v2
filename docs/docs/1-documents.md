@@ -13,7 +13,7 @@ permalink: documents
 
 1) Using environment variables
 ```php
-use vinicinbgs\Autentique\Documents;
+use danilo62x\Autentique\Documents;
 
 $documents = new Documents(); // AUTENTIQUE_TOKEN in .env
 ```
@@ -21,7 +21,7 @@ $documents = new Documents(); // AUTENTIQUE_TOKEN in .env
 2) Passing token in constructor
 
 ```php
-use vinicinbgs\Autentique\Documents;
+use danilo62x\Autentique\Documents;
 
 $token = "YOUR_ALTERNATIVE_TOKEN";
 $documents = new Documents($token); // Alternative token
@@ -30,8 +30,8 @@ $documents = new Documents($token); // Alternative token
 3) Setting Api instance (url and timeout) and sandbox mode `("true" | "false")` in **Documents instance**
 
 ```php
-use vinicinbgs\Autentique\Utils\Api;
-use vinicinbgs\Autentique\Documents;
+use danilo62x\Autentique\Utils\Api;
+use danilo62x\Autentique\Documents;
 
 $api = new Api('https://api.autentique.com.br/v2/graphql', 100);
 $document = new Documents($token);

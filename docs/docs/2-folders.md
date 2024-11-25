@@ -10,7 +10,7 @@ permalink: folders
 
 1) Using environment variables
 ```php
-use vinicinbgs\Autentique\Folders;
+use danilo62x\Autentique\Folders;
 
 $folders = new Folders(); // AUTENTIQUE_TOKEN in .env
 ```
@@ -18,7 +18,7 @@ $folders = new Folders(); // AUTENTIQUE_TOKEN in .env
 2) Passing token in constructor
 
 ```php
-use vinicinbgs\Autentique\Folders;
+use danilo62x\Autentique\Folders;
 
 $token = "YOUR_ALTERNATIVE_TOKEN";
 $folders = new Folders($token); // Alternative token
@@ -27,8 +27,8 @@ $folders = new Folders($token); // Alternative token
 3) Setting Api instance (url and timeout) and sandbox mode `("true"|"false")` in **Folders instance**
 
 ```php
-use vinicinbgs\Autentique\Utils\Api;
-use vinicinbgs\Autentique\Folders;
+use danilo62x\Autentique\Utils\Api;
+use danilo62x\Autentique\Folders;
 
 $api = new Api('https://api.autentique.com.br/v2/graphql', 100);
 $folders = new Folders($token);

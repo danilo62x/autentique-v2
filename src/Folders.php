@@ -1,12 +1,12 @@
 <?php
 
-namespace vinicinbgs\Autentique;
+namespace danilo62x\Autentique;
 
-use vinicinbgs\Autentique\Utils\Query;
+use danilo62x\Autentique\Utils\Query;
 
 /**
  * Class Folders
- * @package vinicinbgs\Autentique
+ * @package danilo62x\Autentique
  * @see https://beadev.net/autentique-v2/folders
  */
 class Folders extends BaseResource

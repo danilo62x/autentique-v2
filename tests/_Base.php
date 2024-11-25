@@ -1,6 +1,6 @@
 <?php
 
-namespace vinicinbgs\Autentique\tests;
+namespace danilo62x\Autentique\tests;
 
 use PHPUnit\Framework\TestCase;
 
