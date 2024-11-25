@@ -3,7 +3,6 @@
 namespace vinicinbgs\Autentique\Utils;
 
 use CURLFile;
-use CurlHandle;
 use Exception;
 
 use vinicinbgs\Autentique\exceptions\EmptyTokenException;
@@ -80,7 +79,6 @@ class Api
         $curl = curl_init();
 
         curl_setopt_array(
-            /** @scrutinizer ignore-type */
             $curl,
             [
                 CURLOPT_URL => $this->url,
@@ -110,10 +108,7 @@ class Api
             throw new Exception(curl_error($curl));
         }
 
-        curl_close(
-            /** @scrutinizer ignore-type */
-            $curl
-        );
+        curl_close($curl);
 
         return json_decode($response, true);
     }
@@ -152,20 +147,14 @@ class Api
         return "Content-Type: multipart/form-data";
     }
 
-    public function getErrorNo(CurlHandle $curl): int
+    public function getErrorNo($curl): int
     {
-        return curl_errno(
-            /** @scrutinizer ignore-type */
-            $curl
-        );
+        return curl_errno($curl);
     }
 
-    public function executeCurl(CurlHandle $curl): string
+    public function executeCurl($curl): string
     {
-        return curl_exec(
-            /** @scrutinizer ignore-type */
-            $curl
-        );
+        return curl_exec($curl);
     }
 
     /**
